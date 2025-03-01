@@ -24,9 +24,9 @@ def total_salary(path):
 
 try:
 
-    total, average = total_salary("venv/path/to/salary_file.txt")
+    total, average = total_salary("path/to/salary_file.txt")
     print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
 
 except Exception:
 
-    print(total_salary("venv/path/to/salary_file.txt"))
+    print(total_salary("path/to/salary_file.txt"))
